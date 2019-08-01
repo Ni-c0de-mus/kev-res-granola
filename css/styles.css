@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css?family=Abel|Dosis|Fjalla+One|Montserrat|Noto+Sans+JP|PT+Sans+Caption|PT+Sans+Narrow|Playfair+Display|Reem+Kufi|Ropa+Sans');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*****
+ Border Box
+ *****/
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    font-family: "Montserrat", serif;
+    color: var(--black);
+}
